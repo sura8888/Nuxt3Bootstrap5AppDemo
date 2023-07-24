@@ -1,5 +1,3 @@
 <template>
-  <div class="container">
-    <h1>Hello World</h1>
-  </div>
-</template>
+    <NuxtLink to="/recipe/recipe">About Page</NuxtLink>
+  </template>
