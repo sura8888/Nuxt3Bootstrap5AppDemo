@@ -1,3 +1,3 @@
 <template>
-    <NuxtLink to="/recipe/recipe">About Page</NuxtLink>
+    <NuxtLink to="/recipe">About Page</NuxtLink>
   </template>
