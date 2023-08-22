@@ -1,12 +1,4 @@
 <template>
-    <style>
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-</style>
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <NuxtLink class="navbar-brand" to="/" style="margin: 0 auto;">
@@ -15,3 +7,11 @@
   </div>
 </nav>
 </template>
+<style>
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+</style>
