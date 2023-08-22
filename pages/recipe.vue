@@ -1,11 +1,4 @@
 <template>
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <NuxtLink class="navbar-brand" to="/" style="margin: 0 auto;">
-      <img src="~/assets/img/icon.png" alt="icon" width="50" height="55" class="d-inline-block align-text-top">
-    </NuxtLink>
-  </div>
-</nav>
   <div class="container text-center my-5">
     <h1>{{ data.title }}</h1>
     <div class="alert alert-primary" role="alert">{{ data.description }}</div>
@@ -100,4 +93,5 @@
 </template>
 <script setup>
  const data = useRecipe()
+ import AppHeader from '~/components/AppHeader.vue'
 </script>
