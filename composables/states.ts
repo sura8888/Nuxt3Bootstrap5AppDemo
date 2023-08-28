@@ -14,6 +14,7 @@ export const useRecipe = () => useState('recipe', () => {
         { text: "★塩　大さじ1/2" },
         { text: "あれば★パプリカパウダー　小さじ１" },
       ],
-      zairyo:"材料"
+      zairyo:"材料",
+      make:"作り方",
     }
   })
